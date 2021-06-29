@@ -1,0 +1,381 @@
+body{
+	font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+
+/** Teachers datatable */
+.btn_teacher_add{
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-bottom: -4.8%;
+	z-index: 1;
+	width: 150px;
+}
+.btn_teacher_add a{
+	font-weight: bold;
+}
+.report_name{
+	margin-left: 2%;
+	margin-bottom: -3.5%;
+	z-index: 1;
+	width: 500px;
+}
+
+.btn_oqituvchi_harakt{
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-bottom: -4.8%;
+	z-index: 1;
+	width: 200px;
+}
+.btn_oqituvchi_harakt a{
+	font-weight: bold;
+}
+.btn_oquvchi_harakt{
+	margin-left: 2%;
+	margin-top: 0%;
+	margin-bottom: -10%;
+	z-index: 1;
+	width: 800px;
+	height: 60px;
+}
+
+.card-body .table th{
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+.card-body .table td{
+	padding-top: 9px;
+	padding-bottom: 9px;	
+}
+.table tbody tr.odd{
+	background: #def0fb;
+}
+.card-body .table tr:hover{
+		background: #98e1eb;
+}
+.card-body .table .harakatlar{
+	padding-right: 3px;
+	display: flex;
+	justify-content: space-between;
+	height: 30px;
+}
+
+.card-body .table .harakatlar .tools{
+	display: flex;
+	/*flex-direction: column;*/
+	width: 0px;
+	position: absolute;
+	left: 95%;
+}
+.card-body .table .harakatlar .tools .fa-trash{
+	color: #dc3545;
+	margin-left: 5px;
+	padding-top: -3px;
+	padding-bottom: 2px;
+	cursor:pointer;
+}
+.card-body .table .harakatlar .tools .fa-edit{
+	cursor:pointer;
+	color: #007bff;
+}
+
+.table_oquvchi_harakat tbody tr.odd,
+.table_oqituvchi_harakat tbody tr.odd,
+.table_oquvchi_bahosi tbody tr.odd {
+	background: none;
+}
+
+.table_oquvchi_bahosi tbody tr .fish{
+	color:#0c8b9f;
+	font-weight: bold;
+}
+.table_oquvchi_bahosi tbody tr td.align-middle{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/** ./Teachers datatable */
+
+
+
+/** Sinflar datatable */
+.card-body .table .harakatlar_sinflar{
+	display: flex;
+	justify-content: space-between;
+	height: 30px;
+}
+
+.card-body .table .harakatlar_sinflar .tools{
+	display: flex;
+	flex-direction: column;
+	width: 0px;
+	position: absolute;
+	left: 97%;
+}
+.card-body .table .harakatlar_sinflar .tools .fa-trash{
+	color: #dc3545;
+	padding-top: -2px;
+	padding-bottom: 2px;
+	cursor:pointer;
+}
+.card-body .table .harakatlar_sinflar .tools .fa-edit{
+	cursor:pointer;
+	color: #007bff;
+}
+/** ./Sinflar datatable */
+
+
+/** header top */
+.main-header{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.brand-link{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/** ./header top */
+
+
+
+
+
+
+/** admin chiqish, tahrirlash  */
+.navbar-nav .dropdown-menu{
+	margin-top: -7px;
+	border-radius: 0px;
+	padding: 0px;
+}
+.dropdown-divider{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.dropdown-menu-right{
+	margin-right: 7px;
+}
+.dropdown-menu-right .dropdown-item{
+	font-size: 15px;
+	margin-right: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.dropdown-menu-right .dropdown-item img{
+	width: 18px;
+}
+
+.dropdown-menu-right .dropdown-item:hover{
+	background-color: #3fd1e7;
+	color: white;
+	font-variant: bold;
+}
+#admin_btn{
+	padding-right: 10px;
+	padding-left: 0px;
+	display: flex;
+}
+#admin_btn img{
+	width: 25px;
+	height: 23px;
+}
+#admin_btn p{
+	color: black;
+	margin-left: 5px;
+	font-weight: bold;
+}
+/** ./admin chiqish, tahrirlash  */
+
+
+/** Title */
+h5.title{
+	margin-left: 31%;
+	font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,
+	"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,
+	"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+
+/** ./ title */
+
+/*   O'quvchi harakati */
+.btn_sinf{
+	width: 180px;
+}
+.btn_sinf .img-arrow-svg{
+	width: 13%;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline;
+}
+
+.btn_maktab{
+	width: 225px;
+}
+
+.btn_maktab .img-arrow-svg{
+	width: 11%;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline;
+}
+
+
+.table .badge{
+	padding: 4px;
+/*	padding-bottom: 3px;
+	padding-left: 4px; 
+	padding-right: 4px;*/
+	font-size: 14px;
+}
+.table .oquvchi_harakat-img-right{
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+.fish{
+	color: black;
+}
+.fish:hover{
+	color: blue;
+}
+
+/** oqituchi harakati Profile */
+.card{
+	border-radius: 0px;
+}
+.box-profile{
+	display: flex;
+	padding: 1px;
+}
+.box-profile .block-img{
+	padding: 0px;
+	width: 40%;
+}
+.box-profile .block-img img{
+	width: 100%;
+	border: 1px solid #cacaca;
+	padding: 3px;
+	border-radius: 0px;
+}
+.profile-username{
+	font-size: 18px;
+	font-family: "Comic Sans MS", cursive;
+	margin-bottom: 7px;
+}
+.list-group{
+	width: 60%;
+}
+.list-group .list-group-item{
+	padding: 0px;
+	height: 72px;
+}
+.list-group .list-group-item .list-group-item-p{
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.list-group-item:first-child{
+	border-top: none;
+	background: #e0f5ff;
+}
+.qaytish .fa-long-arrow-alt-left{
+	font-size: 40px;
+	margin-top: 0px;
+	color: #14889b;
+}
+
+/*   Report pages */
+.report .js_tr_hover .fa-check {
+	margin-right: 10px;
+	color: #0aaf0a;
+	font-size: 20px;
+}
+
+.report .js_tr_hover .fa-times {
+	margin-right: 17px;
+	color: red;
+	font-size: 20px;
+}
+.report .js_tr_hover .fa-exclamation {
+	margin-right: 17px;
+	color: gray;
+	margin-left: 5px;
+	/*color:red;*/
+	font-size: 20px;
+}
+
+.report .badge-info {
+	background: #0aaf0a;
+}
+
+.userTask_back_btn{
+	margin-left: 20px;
+}
+
+.userTask_back_btn i{
+	font-size: 40px;
+	color: green;
+}
+
+
+
+
+.remindTime{
+	height: 100%;
+	border-bottom-right-radius: .25rem !important;
+	border-top-right-radius: .25rem !important;
+	cursor: pointer;
+}
+.remindTime .fa-times {
+	color: red;
+}
+
+.formDateResult{
+	margin-bottom: -4.8%;
+	z-index: 1;
+}
+
+.addBtnDiv{
+	margin-top: 31.5px;
+}
+
+.userTask .js_tr_hover .fa-times{
+	margin-right: 0px !important;
+	font-size: 14px !important;
+	color: red;
+}
+
+.userTask .js_remindTimeInputs .input-group input {
+	padding-left: 5px !important;
+	padding-right: 1px !important;
+}
+
+.userTask .js_remindTimeInputs .input-group-append{
+	cursor: pointer;
+}
+
+.userTask .js_remindTimeInputs .input-group-append span {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.userTask .js_remindTimeInputs a.btn-sm{
+	padding: .20rem .4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
